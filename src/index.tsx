@@ -1,6 +1,6 @@
 import React from "react";
-import Btn from "./Btn";
-import Preview from "./Preview";
+import Btn from "./components/Btn";
+import Preview from "./components/Preview";
 
 type Props = {
   width?: number;
