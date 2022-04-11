@@ -8,13 +8,15 @@ type Props = {
   className?: string;
   setFiles?: Function;
   files?: File[];
+  accept?: string;
+  max?: number;
 };
 
 export default function Index(props: Props) {
-  const { width, height, className, setFiles, files } = props;
+  const { width, height, className, setFiles, files, accept, max } = props;
 
   return (
-    <Btn setFiles={setFiles}>
+    <Btn setFiles={setFiles} accept={accept} max={max}>
       <Preview
         file={files && files[0]}
         width={width}
