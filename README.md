@@ -1,7 +1,5 @@
-# node_module
+# react-prev-img
 
-A boiletplate for node_module with TS.
+A react image picker with preview
 
-Do **_npm run build_** to generate the js file and declaration.
-
-Publish it with **_npm publish_**
+`npm install react-prev-img`

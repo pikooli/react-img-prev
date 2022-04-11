@@ -1,6 +1,6 @@
 {
-  "name": "@pikooli/react-prev-img",
-  "version": "1.0.13",
+  "name": "react-prev-img",
+  "version": "0.0.0",
   "description": "A react image picker with preview",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
