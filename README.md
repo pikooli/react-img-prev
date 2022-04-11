@@ -1,4 +1,5 @@
-# react-prev-img
+react-prev-img
+---
 
 A react image picker with preview
 
@@ -29,3 +30,9 @@ Accept this props :
 |className | string   |
 |files     | File     |
 |setFiles  | Function |
+
+License
+---
+Under the MIT license.
+
+
