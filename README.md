@@ -1,4 +1,4 @@
-## react-prev-img
+## react-img-prev
 
 A react image picker with preview
 
