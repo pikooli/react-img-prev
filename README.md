@@ -6,35 +6,35 @@ It let you pick files from your computer and display only the first one.
 
 Install :
 
-`npm install react-prev-img`
+`npm install react-img-prev`
 
 How to use it :
 
 ```
-import ReactPrevImg from "react-img-prev";
+import ReactImgPrev from "react-img-prev";
 
 const Component = () => {
 
   const [files, setFiles] = useState({});
 
   return (
-    <ReactPrevImg files={files.files} setFiles={setFiles} />
+    <ReactImgPrev files={files.files} setFiles={setFiles} />
   )}
 ```
 
 If you want to display your own placeholder in place of the default icon, you can pass it as a children.
 
 ```
-import ReactPrevImg from "react-img-prev";
+import ReactImgPrev from "react-img-prev";
 
 const Component = () => {
 
   const [files, setFiles] = useState({});
 
   return (
-    <ReactPrevImg files={files.files} setFiles={setFiles} >
+    <ReactImgPrev files={files.files} setFiles={setFiles} >
       <h1>Image</h1>
-    </ReactPrevImg>
+    </ReactImgPrev>
   )}
 ```
 
