@@ -11,7 +11,7 @@ Install :
 How to use it :
 
 ```
-import ReactPrevImg from "@pikooli/react-prev-img";
+import ReactPrevImg from "react-prev-img";
 
 const Component = () => {
 
@@ -25,7 +25,7 @@ const Component = () => {
 If you want to display your own placeholder in place of the default icon, you can pass it as a children.
 
 ```
-import ReactPrevImg from "@pikooli/react-prev-img";
+import ReactPrevImg from "react-prev-img";
 
 const Component = () => {
 
