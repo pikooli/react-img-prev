@@ -10,7 +10,7 @@ Install :
 
 How to use it :
 
-```
+```javascript
 import ReactImgPrev from "react-img-prev";
 
 const Component = () => {
@@ -24,7 +24,7 @@ const Component = () => {
 
 If you want to display your own placeholder in place of the default icon, you can pass it as a children.
 
-```
+```javascript
 import ReactImgPrev from "react-img-prev";
 
 const Component = () => {
