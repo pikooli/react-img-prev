@@ -22,6 +22,22 @@ const Component = () => {
   )}
 ```
 
+If you want to display your own placeholder in place of the default icon, you can pass it as a children.
+
+```
+import ReactPrevImg from "@pikooli/react-prev-img";
+
+const Component = () => {
+
+  const [files, setFiles] = useState({});
+
+  return (
+    <ReactPrevImg files={files.files} setFiles={setFiles} >
+      <h1>Image</h1>
+    </ReactPrevImg>
+  )}
+```
+
 You can pass additional options.
 
 Accepted props :

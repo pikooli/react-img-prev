@@ -6,10 +6,11 @@ type Props = {
   width?: number;
   height?: number;
   className?: string;
+  children?: React.ReactNode;
 };
 
 const Preview: React.FC<Props> = (props) => {
-  const { file, width, height, className } = props;
+  const { file, width, height, className, children } = props;
   const [fileDataUrl, setFileDataURL] = useState("");
 
   useEffect(() => {
@@ -44,6 +45,9 @@ const Preview: React.FC<Props> = (props) => {
         <img src={fileDataUrl} style={{ width: "100%", height: "100%" }} />
       </div>
     );
+  }
+  if (children) {
+    return <>{children}</>;
   }
   return (
     <div style={style} className={className}>

@@ -10,10 +10,12 @@ type Props = {
   files?: File[];
   accept?: string;
   max?: number;
+  children?: React.ReactNode;
 };
 
 export default function Index(props: Props) {
-  const { width, height, className, setFiles, files, accept, max } = props;
+  const { width, height, className, setFiles, files, accept, max, children } =
+    props;
 
   return (
     <Btn setFiles={setFiles} accept={accept} max={max}>
@@ -22,6 +24,7 @@ export default function Index(props: Props) {
         width={width}
         height={height}
         className={className}
+        children={children}
       />
     </Btn>
   );
