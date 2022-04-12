@@ -1,5 +1,5 @@
 {
-  "name": "react-prev-img",
+  "name": "react-img-prev",
   "version": "0.0.2",
   "description": "A react image picker with preview",
   "main": "dist/cjs/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pikooli/react-prev-img.git"
+    "url": "git+https://github.com/pikooli/react-img-prev.git"
   },
   "author": "pikooli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pikooli/react-prev-img/issues"
+    "url": "https://github.com/pikooli/react-img-prev/issues"
   },
-  "homepage": "https://github.com/pikooli/react-prev-img#readme",
+  "homepage": "https://github.com/pikooli/react-img-prev#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.1",
     "@rollup/plugin-commonjs": "^21.0.3",
