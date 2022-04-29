@@ -47,7 +47,7 @@ export default function Btn(props: Props) {
         onChange={onChange}
         style={style}
       />
-      <button className={className} onClick={OnBtnImages}>
+      <button className={className} onClick={OnBtnImages} type="button">
         {children}
       </button>
     </>
